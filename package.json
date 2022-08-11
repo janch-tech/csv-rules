@@ -1,0 +1,28 @@
+{
+  "name": "csv-rules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "csv-rules": "./src/cli/csv-rules.js"
+  },
+  "scripts": {
+    "csv-rules": "node ./src/cli/csv-rules.js",
+    "test": "mocha --recursive"
+  },
+  "author": "taarimalta",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "dayjs": "^1.10.7",
+    "fast-csv": "^4.3.6",
+    "handlebars": "^4.7.7",
+    "mustache": "^4.2.0",
+    "timezone": "^1.0.23",
+    "uuid": "^8.3.2",
+    "voca": "^1.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
+}

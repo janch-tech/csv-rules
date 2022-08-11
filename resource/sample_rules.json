@@ -1,0 +1,37 @@
+{
+  "rules": {
+    "FirstName": "{{fname}}",
+    "LastName": "{{lname}}",
+    "Country": "United States",
+    "InitialFirstName": {
+      "voca": [
+        "first",
+        "{{FirstName}}"
+      ]
+    },
+    "InitialLastName": {
+      "voca": [
+        "last",
+        "{{LastName}}"
+      ]
+    },
+    "Initials": "{{InitialFirstName}}{{InitialLastName}}",
+    "AppointmentDate": {
+      "dayjs": [
+        "{{AppointmentDate}}",
+        "MM-DD-YYY",
+        "MM/DD/YYYY"
+      ]
+    }
+  },
+  "output": {
+    "format": "CSV",
+    "fields": [
+      "FirstName",
+      "LastName",
+      "Country",
+      "Initials",
+      "AppointmentDate"
+    ]
+  }
+}

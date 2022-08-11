@@ -102,3 +102,15 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+# Webstorm
+.idea
+
+# Remove these from .gitignore later
+yarn.lock
+package-lock.json
+
+# Output of yarn csv-rules run .\resource\sample_source.csv -c .\resource\sample_rules.json -o .\resource\test_output.csv
+
+resource/test_output.csv
