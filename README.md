@@ -4,33 +4,39 @@ This tool can be used to organize transformations and mappings to a CSV within a
 
 Samples are located in the `resource` folder
 
-# Install
+# Install from npmjs
+
+```
+npm install csv-rules
+```
+
+# Install From Github
 
 ``
-yarn install
+npm install
 ``
 
 # Test
 
 ``
-yarn test
+npm run test
 ``
 
 # Usage
 
 ```
 # Get Help
-yarn csv-rules -h
+npm run csv-rules -h
 
 # Get Help about run command
 
-yarn csv-rules run -h
+npm run csv-rules run -h
 
 # Example Usage where output is shown to terminal
-yarn csv-rules run ./resource/sample_source.csv -c ./resource/sample_rules.json
+npm run csv-rules run ./resource/sample_source.csv -c ./resource/sample_rules.json
 
 # Example Usage where output is written to file
-yarn csv-rules run ./resource/sample_source.csv -c ./resource/sample_rules.json -o output.csv
+npm run csv-rules run ./resource/sample_source.csv -c ./resource/sample_rules.json -o output.csv
 ```
 
 # About Rules
